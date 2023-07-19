@@ -1,0 +1,241 @@
+/* .experience {} */
+
+.experience__section__title {
+    display: flex;
+    justify-content: center;
+}
+
+.experiencie__box {
+    display: flex;
+    padding: 5%;
+}
+
+/* .experience__img {} */
+
+.experience__info {
+    padding-left: 3%;
+    padding-top: 10%;
+}
+
+.experiencia__botao--repo {
+    background: #FFFFFF;
+    border: solid #2A7AE4;
+    color: #2A7AE4;
+    border-width: 1px;
+    width: 90px;
+    height: 50px;
+    padding: 4%;
+}
+
+.experience__botao--demo {
+    background: #2A7AE4;
+    color: #FFFFFF;
+    border: none;
+    width: 90px;
+    height: 50px;
+    padding: 4%;
+}
+
+.game {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.info_two {
+    padding-right: 8%;
+}
+
+.box_three {
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 4%;
+
+
+}
+
+.img-ex {
+    width: 63%;
+    margin-right: 3%;
+}
+
+.infro-three {
+    padding-left: 7%;
+    padding-top: 10%;
+}
+
+.img-four {
+    order: 2;
+}
+
+.box-four {
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+
+.experience__info-container {
+    padding-top: 14%;
+    padding-right: 6%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .experiencie__box {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5%;
+    }
+
+    .experience__img {
+        width: 99%;
+    }
+
+    .experience__info {
+        padding-left: 0%;
+        padding-top: 10%;
+    }
+
+    /* -------------two--------- */
+    .game {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5%;
+        margin-right: 0%;
+    }
+
+    .info_two {
+        padding-left: 0%;
+        padding-top: 10%;
+        margin-right: 50%;
+
+    }
+
+    /* -------THREE---- */
+
+    .box_three {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5%;
+        margin-right: 0%;
+    }
+
+    .info_three {
+        padding-left: 0%;
+        padding-top: 10%;
+    }
+
+    /* -------four-------- */
+    .box-four {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5%;
+        margin-right: 0%;
+    }
+
+    .experience__info-container {
+        order: 2;
+
+    }
+
+}
+
+/* *************************************************************/
+
+
+.contacto {
+    background: #EAF2FD;
+    padding: 7%;
+}
+
+.contenido-contacto {
+    padding-left: 2%;
+}
+
+.formcontato__img {
+    width: 300px;
+    margin-left: 8%;
+}
+
+.formContato__title {
+    font-size: 2rem;
+}
+
+.formContato__subtext {
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+
+.formcontato__text {
+    display: flex;
+
+}
+
+.formContato__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formContato__input {
+    padding-top: 4%;
+    margin: 2%;
+    border-radius: 3px;
+    border-color: transparent;
+
+}
+
+.formContato__input::placeholder {
+    color: #A2A2A2;
+}
+
+/* .formContato__input:active {
+    border-color: red;
+    background: #2A7AE4;
+  } */
+
+.formcontato__textarea {
+    margin: 2%;
+    border-radius: 3px;
+    border-color: transparent;
+    resize: none;
+}
+
+
+.formcontato__textarea::placeholder {
+    color: #A2A2A2;
+}
+
+.formContato__botton {
+    margin: 2%;
+    width: 120px;
+    height: 40px;
+    background: #2A7AE4;
+    color: #EAF2FD;
+    border: transparent;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .formcontato__img {
+        display: none;
+    }
+
+    .formcontato__text {
+        justify-content: center;
+
+
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .info_two{
+        flex-wrap: nowrap;
+    }
+}

@@ -1,0 +1,32 @@
+.about {
+    display: flex;
+    background-color: #EAF2FD;
+    padding: 0% 10% 0% 10%;
+}
+
+.about__container {
+    padding-right: 40%;
+}
+
+.about__title {
+    font-size: 2rem;
+}
+
+.about__paragraph {
+    text-align: justify;
+    padding-bottom: 2%;
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 3%;
+    }
+
+    .about__container {
+        padding-right: 2%;
+    }
+    .about__paragraph{
+        font-size: 0.95em;
+    }
+
+}
